@@ -2,4 +2,7 @@
 <p>Hello Index!</p>
 
 <a href="/demo/hello">Hello Page 1</a><br />
-<%= link_to('Hello Page 2', {:action => 'hello'}) %>
+<%= link_to('Hello Page 2', {:action => 'hello'}) %><br />
+
+<a href="/demo/hello">Hello Page 1</a><br />
+<%= link_to('Hello with parameters', {:action => 'hello', :page => 5, :id => 20}) %>
